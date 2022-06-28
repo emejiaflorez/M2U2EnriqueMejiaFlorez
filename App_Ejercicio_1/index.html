@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>SistMatric</title>
+      <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+      <h3 id="rotulo">App SIMAT</h3>
+      <form> 
+        <section class="Estudiante">
+            <label>Codigo Estudiantil
+                  <input type="number" id="idEst">
+                  <input type="submit" class="submit" id="Buscar" value="Buscar">
+             </label>    
+             <label>Nombre del estudiante
+                  <input type="text" id="NomEst">
+             </label>
+        </section>
+        <br>
+        <section class="Materia">
+            <label>Nro.Asignaturas
+               <input type="number" id="NumMat">  
+               <select id="select">
+                  <option value="" disabled selected>--Seleccione una Materia-- </option>
+               </select> 
+               <input type="submit" class="submit" id="Mas" value=" + ">
+               <input type="submit" class="submit" id="Calcular" value=" Calcular">
+            </label>      
+         </section>
+       </form>
+     
+      <script src="script.js"></script>
+</body>
+</html>
